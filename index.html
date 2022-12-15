@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- End Bootstrap -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="loading" id="loading">
+        <div class="loader"></div>
+    </div>
+    <div id="modal-undangan" class="modal-undangan">
+        <div class="modal-undangan-body">
+            <div class="container h-100">
+                <div class="d-flex flex-column justify-content-center align-items-center h-100 undangan-flex w-100">
+                    <h2 class="text-center modal-sambutan">Om Swastyastu</h2>
+                    <h2 class="text-center modal-undangan-nama mt-5">Angga & Novi</h2>
+                    <h2 class="yth text-center mt-2" id="yth">Yth.</h2>
+                    <h2 class="text-center tamu " id="tamu"></h2>
+                    <div class="text-center modal-undangan-content">Tanpa Mengurangi Rasa Hormat, Kami Mengundang Anda Untuk Hadir di Acara Pernikahan Kami</div>
+                    <button type="button" class="button-envelope btn btn-warning text-white mt-3" id="button-envelope"><i class="fa fa-envelope-open"></i> Buka Undangan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="hero-text" data-aos="fade-down" data-aos-duration="2000">
+            <div class="hero-wedding">The Wedding Of</div>
+            <h2 class="hero-nama">Angga & Novi</h2>
+            <div class="hero-date">26 December 2022</div>
+        </div>
+
+        <div class="hero-text-mobile text-center">
+            <div class="hero-wedding-mobile" data-aos="fade-down" data-aos-duration="2000">The Wedding Of</div>
+            <h2 class="hero-nama-mobile" data-aos="fade-down" data-aos-duration="2000">Angga & Novi</h2>
+            <div class="hero-date-mobile" data-aos="fade-down" data-aos-duration="2000">26 December 2022</div>
+        </div>
+        
+    </section>
+    <section class="pawiwahan" >
+        <div class="container" style="padding-top: 20px;">
+            <div class="text-center">
+                
+            <img src="assets/images/asset11.jpg" alt="" width="170px" data-aos="fade-down" data-aos-duration="2000">
+            </div>
+            <h2 class="text-center judul-pawiwahan"  data-aos="fade-up" data-aos-duration="2000">Pawiwahan</h2>
+            <div class="text-center text-pawiwahan" data-aos="fade-up" data-aos-duration="2000">Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/ Tuhan Yang Maha Esa, kami bermaksud menyelenggarakan Upacara Pawiwahan (Pernikahan) Putra Putri kami.</div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 mt-3 grid-pawiwahan">
+                    <center>
+                        <div class="card card-pawiwahan" style="border-radius: 40px; " data-aos="zoom-in-down" data-aos-duration="2000">
+                            <div class="card-body text-center">
+                                <!-- <div class="d-flex flex-row-reverse">
+                                    <img src="assets/images/asset13.png" alt="" width="90px">
+                                </div> -->
+                                <img src="assets/images/Background/Profil 2.jpg" class="rounded-circle" alt="" width="230px" data-aos="fade-down" data-aos-duration="2000">
+                                
+                                <div class="card-nama">
+                                    <h2 class="nama-panggilan">Angga</h2>
+                                </div>
+                                <div class="card-nama-lengkap">
+                                    <h4>I Gede Angga Pande Wiguna</h4>
+                                </div>
+                                <div class="card-text">
+                                    Putra Pertama Dari 
+                                </div>
+                                <div class="card-nama-ortu mt-2">
+                                    <h6>Komang Ngurah Arjana</h6>
+                                    <div class="">&</div>
+                                    <h6>Ni Nyoman Sariathi</h6>
+                                </div>
+    
+                                <div class="card-nama-ortu mt-5">
+                                    <h6>Br. Pande, Desa Manggis, Kec. Manggis, Karangasem.</h6>
+                                </div>
+                                <!-- <div class="d-flex flex-row">
+                                    <img src="assets/images/asset12.png" alt="" width="90px">
+                                </div> -->
+
+                            </div>
+                        </div>
+                    </center>
+
+                </div>
+                <!-- <div class="col-md-1"></div> -->
+                <div class="col-md-6 mt-3 grid-pawiwahan">
+                    <center>
+                        <div class="card card-pawiwahan" style="border-radius: 40px; " data-aos="zoom-in-up" data-aos-duration="2000">
+
+                            <div class="card-body text-center">
+                                <!-- <div class="d-flex flex-row-reverse">
+                                    <img src="assets/images/asset13.png" alt="" width="90px">
+                                </div> -->
+                                <img src="assets/images/Background/Profil1.jpg" class="rounded-circle" alt="" width="230px" data-aos="fade-down" data-aos-duration="2000">
+                                
+                                <div class="card-nama">
+                                    <h2 class="nama-panggilan">Novi</h2>
+                                </div>
+                                <div class="card-nama-lengkap">
+                                    <h4>Noviyanti Manik Segari, S.S</h4>
+                                </div>
+                                <div class="card-text">
+                                    Putri Kedua Dari 
+                                </div>
+                                <div class="card-nama-ortu mt-2">
+                                    <h6>I Nyoman Suyitna Setiawan</h6>
+                                    <div class="">&</div>
+                                    <h6>Ni Nyoman Winiadi</h6>
+                                </div>
+    
+                                <div class="card-nama-ortu mt-5">
+                                    <h6>Jl. Ahmad Yani Gang Jempiring, Lingkungan Galiran Subagan, Karangasem</h6>
+                                </div>
+                                <!-- <div class="d-flex flex-row">
+                                    <img src="assets/images/asset12.png" alt="" width="90px">
+                                </div> -->
+                            </div>
+                        </div>
+                    </center>
+
+                </div>
+            </div>     
+        </div>
+
+    </section>
+    <section class="countdown-acara">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="judul-menuju-acara" data-aos="zoom-in" data-aos-duration="2000">Menuju Acara</h2>
+                <div class="container-card">
+                        <div class="timer-card" style="margin-left: min(50px, 5%);" data-aos="fade-up" data-aos-duration="2250">
+                            <div class="time-number">
+                                <div id="hari"></div>
+                            </div>
+                            <div class="time-break"></div>
+                            <div class="time-text">
+                                Hari
+                            </div>
+                        </div>
+                        <div class="timer-card" data-aos="fade-up" data-aos-duration="2500">
+                            <div class="time-number">
+                                <div id="jam"></div>
+                            </div>
+                            <div class="time-break"></div>
+                            <div class="time-text">
+                                Jam
+                            </div>
+                        </div>
+                        <div class="timer-card" data-aos="fade-up" data-aos-duration="2750">
+                            <div class="time-number">
+                                <div id="menit"></div>
+                            </div>
+                            <div class="time-break"></div>
+                            <div class="time-text">
+                                Menit
+                            </div>
+                        </div>
+                        <div class="timer-card" data-aos="fade-up" data-aos-duration="3000">
+                            <div class="time-number">
+                                <div id="detik"></div>
+                            </div>
+                            <div class="time-break"></div>
+                            <div class="time-text">
+                                Detik
+                            </div>
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="resepsi">
+        <div class="container">
+            <div class="text-center" style="padding-top: 20px; padding-bottom: 80px;">
+
+                <img class="asset-resepsi" src="assets/images/asset11.jpg" alt="" width="170px" data-aos="fade-down" data-aos-duration="2000">            
+                <h2 class="text-center judul-resepsi" data-aos="fade-down" data-aos-duration="2000">Resepsi Nikah</h2>
+                <div class="card mt-5">
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-6">
+                            <div class="row gx-5">
+                                    <div class="col-6" data-aos="zoom-in" data-aos-duration="2000">
+                                    
+                                    <i class="fa fa-calendar font-resepsi" style="font-size: 60px;"></i>
+                                    <div class="text-resepsi">
+                                        26 Desember 2022
+                                    </div>
+
+                                </div>
+                                <div class="col-6" data-aos="zoom-in" data-aos-duration="2000">
+                                    
+                                    <i class="fa fa-clock-o font-resepsi" style="font-size: 60px;"></i>
+                                    <div class="text-resepsi">
+                                        11:00 - 21:00 Wita
+                                    </div>
+                                </div>
+                            </div>
+                            <h4 class="judul-lokasi-resepsi" data-aos="fade-down" data-aos-duration="2000">Lokasi</h4>
+                            <h5 class="lokasi-resepsi" data-aos="fade-down" data-aos-duration="2000">Br. Pande, Desa Manggis, Kec. Manggis, Karangasem.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="text-center">
+            <img src="assets/images/asset11.jpg" alt="" width="170px" data-aos="fade-down" data-aos-duration="2000">
+            <h2 class="gallery-judul" data-aos="fade-up" data-aos-duration="2000">Gallery</h2>
+        </div>
+        <div class="container">
+            <div id="carouselExampleInterval" class="carousel slide carousel-gallery hover-image" data-bs-ride="carousel" data-aos="zoom-in-up" data-aos-duration="2000">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="assets/images/Galeri/carousel1.jpg" class="d-block w-100 gambar-momen" alt="..." id="gambar1">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/images/Galeri/carousel2.jpg" class="d-block w-100 gambar-momen" alt="..." id="gambar2">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/images/Galeri/carousel3.jpg" class="d-block w-100 gambar-momen" alt="..." id="gambar3">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/images/Galeri/carousel4.jpg" class="d-block w-100 gambar-momen" alt="..." id="gambar4">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+                <!-- 57 carousel -->
+              </div>
+              
+              <div class="row justify-content-center mt-2 mx-2" data-aos="zoom-in-up" data-aos-duration="2000">
+                
+                    <div class="col-xl-3 mt-3">
+                    <center>
+                        <img class="gallery-images hover-image" src="assets/images/Galeri/galeri1.jpg" alt="" id="gambar5">
+                    </center>
+                            
+                    </div>
+                    <div class="col-xl-3 mt-3">
+                        <center>
+                            <img class="gallery-images hover-image" src="assets/images/Galeri/galeri2.jpg" alt="" width="300px" id="gambar6">
+                        </center>
+                    </div>
+                    <div class="col-xl-3 mt-3">
+                    <center>
+                        <img class="gallery-images hover-image" src="assets/images/Galeri/galeri3.jpg" alt="" width="300px" id="gambar7">
+                    </center>
+                    </div>
+                    <div class="col-xl-3 mt-3">
+                        <center>
+                            <img class="gallery-images hover-image" src="assets/images/Galeri/galeri4.jpg" alt="" width="300px" id="gambar8">
+                        <center>
+                    </div>
+                    <div class="col-xl-3 mt-4">
+                        <center>
+                            <img class="gallery-images hover-image" src="assets/images/Galeri/galeri5.jpg" alt="" width="300px" id="gambar9">
+                        <center>
+                    </div>
+                    <div class="col-xl-3 mt-4">
+                        <center>
+                            <img class="gallery-images hover-image" src="assets/images/Galeri/galeri6.jpg" alt="" width="300px" id="gambar10">
+                        <center>
+                    </div>
+                    <div class="col-xl-3 mt-4">
+                        <center>
+                            <img class="gallery-images hover-image" src="assets/images/Galeri/galeri7.jpg" alt="" width="300px" id="gambar11">
+                        <center> 
+                            <!-- ganti 23 -->
+                    </div>
+                    <div class="col-xl-3 mt-4">
+                        <center>
+                            <img class="gallery-images hover-image" src="assets/images/Galeri/galeri8.jpg" alt="" width="300px" id="gambar12">
+                        <center>
+                    </div>
+                </div>
+
+              </div>
+    </section>
+    <section class="maps">
+        <div class="text-center" style="padding-top: 30px;">
+            <img src="assets/images/asset11.jpg" alt="" width="170px" data-aos="fade-down" data-aos-duration="2000">
+            <h2 class="gallery-judul" data-aos="fade-up" data-aos-duration="2000">Lokasi Upacara</h2>
+        </div>
+        <div class="container">
+            <div class="maps-iframe" data-aos="zoom-in" data-aos-duration="2000">
+                <center>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2068.4086033822737!2d115.52390581290712!3d-8.484523776734699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc192377ae0c5b782!2zOMKwMjknMDMuMiJTIDExNcKwMzEnMjYuNSJF!5e0!3m2!1sid!2sid!4v1671018770402!5m2!1sid!2sid" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </center>
+            </div>
+            <center>
+                <a href="https://goo.gl/maps/ja838SBD3SjibJVT9">
+                    <button type="button" class="btn btn-outline-warning text-dark mt-3" data-aos="fade-up" data-aos-duration="2000">Buka Google Maps</button>
+                </a>
+            </center>
+        </div>
+
+
+    </section>
+    <section class="health-protocol">
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <img src="assets/images/Background/prokes.jpg" alt="" width="100%" data-aos="zoom-in"  data-aos-duration="2000">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-2">
+                    <center>
+
+                        <img src="assets/images/Background/quotes.png" class="quotes" alt="" width="100%" data-aos="zoom-in"  data-aos-duration="2000">
+                    </center>
+                    
+                        
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5 mb-5">
+                <div class="col-md-12 text-center">
+                    
+                        <h2 class="ucapan">Sampai Jumpa di Hari Bahagia Kami</h2>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <audio id="audio" src="./assets/audio/Jillette Johnson - Champagne Supernova OurVinyl Sessions.mp3" type="audio/mp3"></audio>
+    <button id="play" class="tombol-lagu" data-state="play"><i id='icon' class="fa fa-play"></i></button>
+    <!-- Modal Image -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <!-- End Modal Image -->
+    <!-- Script Bootstrap -->
+    <script>
+        audio = document.getElementById('audio');
+        play = document.getElementById('play');
+        icon = document.getElementById('icon');
+        btn_envelope = document.getElementById('button-envelope');
+        buka_undangan = document.getElementById('modal-undangan');
+        tamu = document.getElementById('tamu');
+        yth = document.getElementById('yth');
+        loading = document.getElementById('loading');
+
+        window.onload = function(){
+            console.log('test')
+            loading.style.zIndex = 0;
+            loading.style.display = 'none';
+            loadBukaUndangan()
+        };
+        
+        function loadBukaUndangan(){
+            buka_undangan.style.display = "block";
+            disableScroll()
+            param = window.location.search;
+            urlParams = new URLSearchParams(param);
+            console.log(urlParams)
+            if (!urlParams.get('to')) {
+                tamu.style.display = 'none';
+                yth.remove();
+                console.log('test')
+            }
+            tamu.innerHTML = urlParams.get('to');
+        }
+        btn_envelope.addEventListener("click", function(event){
+            audio.play()
+            icon.className = 'fa fa-pause';
+            play.dataset.state = 'pause';
+            buka_undangan.classList.add('closed');
+            enableScroll()
+        });
+
+        play.addEventListener("click", function(event){
+            if (this.dataset.state === 'play'){
+                audio.play();
+                icon.className = 'fa fa-pause';
+                play.dataset.state = 'pause';
+            } else {
+                audio.pause();
+                icon.className = 'fa fa-play';
+                play.dataset.state = 'play';
+            }
+        });
+        
+        function disableScroll() {
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+          
+            window.onscroll = function() {
+                window.scrollTo(scrollLeft, scrollTop);
+            };
+        }
+          
+        function enableScroll() {
+            window.onscroll = function() {};
+        }
+    </script>
+
+    <script>
+        
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- End Script Bootstrap -->
+    <script src="gallery.js"></script>
+    <script src="countdown.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init(); </script>
+</body>
+</html>
+
+<!-- 
+    - Hero mobile x
+    - Buka undangan x
+    - Ganti warna latar 
+    - Warna font menuju acara x
+    - Gallery +6 x
+    - Gambar gallery 
+    - Warna tombol buka google maps x
+    - Integrasi buka undangan + lagu x
+    - Animasi x
+    - Design tombol lagu x
+    - Cek responsive x
+    - Hosting
+ -->
